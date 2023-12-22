@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Book {
+  id: [Float!]!
+}
+
+type Query {
+  test(author: String!): Book
+  test2: Book!
+}
